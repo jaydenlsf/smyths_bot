@@ -1,0 +1,14 @@
+{
+    "discordWebhook": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "mobileNumber": "",
+    "postcode": "",
+    "address1": "",
+    "city": "",
+    "cardNumber": "",
+    "expiryMonth": "",
+    "expiryYear": "",
+    "cvv": ""
+}
