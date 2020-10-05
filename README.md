@@ -13,11 +13,12 @@ Install all dependencies
 
 
 ### Instructions
-1. Open profile.json using a text editor and insert the details
+1. Download profile.json and smyths_checkout.py and place both files in the same directory
+2. Open profile.json using a text editor and insert the details
    - If you do not use discord, comment out line 35 and line 49 - 54 in smyths_checkout.py
    - However, it is highly recommended to setup a discord webhook so you can receive notifications when the desired item comes back in stock
-2. Once you have the information filled in you are ready to go and go ahead and run the script
-3. When the desired item becomes in stock, keep an eye on the browser until it reaches the last step at checkout, where you are required to manually select the expiry month and year  of your credit card from the drop down. Finally, make sure to hit the 'Place Order' button
+3. Once you have the information filled in you are ready to go and go ahead and run the script
+4. When the desired item becomes in stock, keep an eye on the browser until it reaches the last step at checkout, where you are required to manually select the expiry month and year  of your credit card from the drop down. Finally, make sure to hit the 'Place Order' button
 
 
 
