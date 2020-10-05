@@ -1,5 +1,25 @@
-# smyths_bot
+# Smyths Checkout Bot
 A simple Python script that uses Selenium to monitor a product. Once the item comes back in stock, the bot will attempt to add it to cart and checkout the basket.
-However, the user would have to manually select the expiry month and year at the final stage of the checkout process and hit 'Place Order' button at the bottom of the page.
 
 
+### Requirements
+- Download webdriver from https://chromedriver.chromium.org/downloads
+- The script uses Firebox as the default browser
+- If you would like to use Chrome instead, change line 9 in smyths_checkout.py to driver = webdriver.Chrome('INSERT THE PATH TO CHROME DRIVER HERE')
+
+Install all dependencies
+1. pip3 install selenium
+2. pip3 install discordwebhook
+
+
+### Instructions
+1. Open profile.json using a text editor and insert the details
+   - If you do not use discord, comment out line 35 and line 49 - 54 in smyths_checkout.py
+   - However, it is highly recommended to setup a discord webhook so you can receive notifications when the desired item comes back in stock
+2. Once you have the information filled in you are ready to go and go ahead and run the script
+3. When the desired item becomes in stock, keep an eye on the browser until it reaches the last step at checkout, where you are required to manually select the expiry month and year  of your credit card from the drop down. Finally, make sure to hit the 'Place Order' button
+
+
+
+### To do
+- Figure out a method to automatically select credit card expiry month and year
